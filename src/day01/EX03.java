@@ -1,6 +1,4 @@
-package Day01;
-
-import java.sql.SQLOutput;
+package day01;
 
 public class EX03 {
     public static void main(String[] args) {
@@ -50,7 +48,7 @@ public class EX03 {
             for (Integer j=6; j > i+1; j--) {
                 System.out.print(" ");
             }
-            for (Integer k=0; k<2*i-1; k++) {
+            for (Integer k=0; k < (2 * i) - 1; k++) {
                 System.out.print("*");
             }
             System.out.println();
