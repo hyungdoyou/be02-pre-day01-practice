@@ -20,6 +20,7 @@ public class Poketmon {
     }
     // 경험치 얻기
     Integer expUp() {
+
         exp = exp + 10;
         if(exp >= 100) {
             levelUp();
