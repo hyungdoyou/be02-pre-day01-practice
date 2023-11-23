@@ -39,6 +39,7 @@ public class CarRaceGame {
             }
             for(int j=0; j<=carNum-1; j++) {
                 System.out.print(carName[j].getName() + " 자동차가 이동한 거리 : ");
+                carName[j].move(carDistance[j]);
                 carName[j].drive(carDistance[j]);
                 totalDistance[j] = carName[j].getForward();
             }
