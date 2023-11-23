@@ -35,7 +35,7 @@ public class Yabawi {
         if(this.score < 0) {   // 점수는 0 미만으로 떨어지지 않음
             this.score = 0;
         }
-        System.out.print("현재 점수 : " + score);
+        System.out.print("현재 점수 : " + this.score);
         return score;
     }
 
@@ -46,7 +46,7 @@ public class Yabawi {
         } else if(num == 1) {
             this.heart = heart - 1;
         }
-        System.out.println("현재 하트 : " + heart);
+        System.out.println("현재 하트 : " + this.heart);
         return heart;
     }
     // 하트 소진 기능
