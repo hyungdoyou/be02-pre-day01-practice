@@ -35,7 +35,7 @@ public class CarRaceGame {
         int[] totalDistance = new int[carNum];
         for(int i=0; i<gameNum; i++) {
             for(int j=0; j<=carNum-1; j++) {
-                carDistance[j] = (int)(Math.random()*9);
+                carDistance[j] = (int)(Math.random()*10);
             }
             for(int j=0; j<=carNum-1; j++) {
                 System.out.print(carName[j].getName() + " 자동차가 이동한 거리 : ");
